@@ -341,7 +341,7 @@ class videoContainer:
         self.filePath = ''
         self.size = 0
         self.thread = None
-        vid = self.yt.vid_info['player_response']
+        #vid = self.yt.vid_info['player_response']
         self.downloadText = '0 kb / 0 kb'
         self.img = pygame.image.load(io.BytesIO(urlopen(self.yt.thumbnail_url).read()))
         #self.img = pygame.image.load(io.BytesIO(urlopen((vid[vid.find('thumbnails')+len('thumbnails":[{"url":"'):vid.find('default.jpg"')+len('default.jpg')])).read()))
