@@ -1,5 +1,5 @@
 # Youtube downloader
- ### For downloading YouTube videos, playlists and total channel content in just one click in three different formats(360p,720p,Audio_only)
+ ### Youtube downloader with GUI and progressive bar support made using python and tkinter.
  
  
 ![](Snap.jpg)
